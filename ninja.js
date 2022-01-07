@@ -9,10 +9,7 @@ class Ninja{
 		console.log(`El nombre del ninja es ${ this.nombre }`)
 	}
 	showStats(){
-		console.log(`El nombre del ninja es ${ this.nombre }`)
-		console.log(`La fuerza del ninja es ${ this.fuerza }`)
-		console.log(`La velocidad del ninja es ${this.velocidad}`)
-		console.log(`La salud del ninja es ${ this.salud}`) 
+		console.log(`Nombre: ${ this.nombre }, Salud: ${ this.salud}, Velocidad: ${this.velocidad}, Fuerza: ${ this.fuerza }`)
 	}
 	drinkSake(){
 		this.salud += 10;
